@@ -1,0 +1,14 @@
+1. Core Ideas
+   
+Scalability → How to handle more users/data:
+Vertical: Upgrade the same machine (limited growth).
+Horizontal: Add more machines (preferred for big systems).
+
+Latency = How long one request takes.
+Throughput = How many requests you handle per second.
+
+Availability → How much of the time your system is up (e.g., 99.99%).
+Reliability → Works correctly even if some parts fail.
+Consistency → Same data everywhere at the same time.
+
+CAP Theorem → Can only pick two: Consistency, Availability, Partition Tolerance.
