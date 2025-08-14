@@ -1,0 +1,46 @@
+📍 Real-Life Analogies for System Design Concepts
+1. Scalability
+Vertical Scaling → Like replacing your small backpack with a bigger one. It holds more stuff, but there’s a size limit.
+Horizontal Scaling → Like hiring more delivery trucks instead of just buying one bigger truck. More vehicles = more deliveries at the same time.
+
+2. Latency & Throughput
+Latency → The time it takes for a pizza to get from the restaurant to your house.
+Throughput → How many pizzas the restaurant can deliver per hour.
+
+3. Availability
+Like a 24/7 grocery store. High availability means it’s always open when you need it.
+
+4. Reliability
+Like a car that starts every time you turn the key — even in bad weather.
+
+5. Consistency
+Like checking a restaurant’s menu online and finding it’s exactly the same in the physical store. No surprises.
+
+6. CAP Theorem
+Imagine an online store:
+
+Consistency → Everyone sees the same stock count at the same time.
+Availability → The store is always accepting orders.
+Partition Tolerance → Even if a network link between warehouses is down, the system still runs.
+You can’t have all three perfectly — you pick two.
+
+7. Caching
+Like keeping your frequently used spices in a small jar near your stove instead of fetching them from the pantry every time.
+
+8. Load Balancing
+Like having multiple cashiers in a supermarket. Each new customer is directed to a cashier with the shortest line.
+
+9. Message Queues
+Like a waiter writing down your order, passing it to the kitchen, and then serving other tables while the chef prepares your food.
+
+10. Failover
+Like having a spare tire in your car — if one blows out, you can still keep driving.
+
+11. Sharding
+Like splitting an alphabetized phone book into multiple smaller books (A–G, H–N, O–Z) so people can find numbers faster.
+
+12. Rate Limiting
+Like a bouncer letting only 5 people into a club every minute to avoid overcrowding.
+
+13. API Gateway
+Like a receptionist at a big office — all visitors go through them before reaching the right department.
